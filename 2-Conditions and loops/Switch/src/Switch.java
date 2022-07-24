@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Switch {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String fruit = in.next();
@@ -43,6 +43,24 @@ public class Main {
             case 6,7 -> System.out.println("Weekend");
             default -> System.out.println("Illegal day");
         }
+
+
+
+        //Nested switch
+        int time = in.nextInt();
+        switch (day){
+            case 4-> {
+                System.out.println("Thursday");
+                switch (time){
+                    case 5-> System.out.println("5 o clock");
+                    case 6-> System.out.println("6 o clock");
+                }
+            }
+
+        }
+
+
+
 
     }
 }
