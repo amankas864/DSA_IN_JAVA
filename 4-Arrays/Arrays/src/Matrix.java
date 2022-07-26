@@ -12,5 +12,6 @@ public class Matrix {
             System.out.println(Arrays.toString(i));
         }
         System.out.println(arr.length);//will give no. of rows
+        System.out.println(arr[2].length);
     }
 }
