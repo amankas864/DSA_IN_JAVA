@@ -3,8 +3,9 @@ public class EvenQue {
         int[] nums ={12,345,2,6,7896} ;
         int count=0;
         for (int i :nums) {
-            if(evendigits(i))
+            if(Math.log10(i)+1 %2==0)
                 count+=1;
+            System.out.println((int)(Math.log10(i)+1) %2==0);
         }
         System.out.println(count);
     }
@@ -14,9 +15,8 @@ public class EvenQue {
         while (i>0){
             i/=10;count++;
         }
-        if (count%2==0)
-            return true;
-        return false;
+        return  (count%2==0);
+
     }
 
 }
