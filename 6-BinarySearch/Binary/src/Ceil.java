@@ -16,6 +16,7 @@ public class Ceil {
                 s=m+1;
             else e=m-1;
         }
-        return arr[m+1];
+        return arr[m+1];//return arr[s]
+        //arr[m] or arr[e] for the floor of the number
     }
 }
