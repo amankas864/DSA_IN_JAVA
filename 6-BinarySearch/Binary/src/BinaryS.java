@@ -39,4 +39,19 @@ public class BinaryS {
         }
         return -1;
     }
+    private static int BinarySearch(int[] a,int b) {
+        int start=0,end=a.length-1,mid;
+        while (start<=end) {
+            mid = start + (end - start) / 2;
+            if (a[mid] == b)
+                return mid;
+
+                if (b > a[mid])
+                    start = mid + 1;
+                else
+                    end = mid - 1;
+
+        }
+        return -1;
+    }
 }
