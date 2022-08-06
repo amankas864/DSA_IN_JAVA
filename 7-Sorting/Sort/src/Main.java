@@ -5,7 +5,7 @@ public class Main {
     }
 
     private static int BubbleSort() {
-        return 0;
+        return 0;int b;
     }
 
 }
