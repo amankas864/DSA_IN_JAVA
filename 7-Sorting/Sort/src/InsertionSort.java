@@ -5,6 +5,6 @@ public class InsertionSort {
     }
 
     private static void insertion(int[] arr) {
-    //partial sorting
+    //partial sorting n
     }
 }
