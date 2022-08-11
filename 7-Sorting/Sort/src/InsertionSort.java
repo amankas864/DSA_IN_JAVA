@@ -5,6 +5,6 @@ public class InsertionSort {
     }
 
     private static void insertion(int[] arr) {
-    //partial sorting nigga
+    //partial sorting nigga os
     }
 }
